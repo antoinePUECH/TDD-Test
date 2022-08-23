@@ -3,7 +3,7 @@
 
 def speed_in_mph(kmh)
   if kmh.class != Float && kmh.class != Integer
-    return error("Not an integer or a float")
+    return error("Please pass a valid speed")
   end
   return mph = kmh / 1.609
 end

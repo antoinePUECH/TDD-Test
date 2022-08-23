@@ -12,7 +12,7 @@ describe "#speed_in_mph" do
     end
     context 'kmh is not an integer' do
         it 'should return an error' do
-            expect(speed_in_mph('hello world')).to eq('Not an integer')
+            expect(speed_in_mph('hello world')).to eq('Please pass a valid speed')
         end
     end
 end
